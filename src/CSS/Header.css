@@ -1,0 +1,23 @@
+.firsth1{
+    color: rgb(255, 255, 0);
+    font-size:xx-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    
+    margin-right: 400px;
+    margin-left: 500px;
+
+}
+.firstdiv{
+  margin-top: 4px;
+  
+  display: flex;
+  flex-direction: row;
+  border: 3px solid red;
+  align-items: center;
+}
+.firstdiv button:hover{
+cursor:pointer;
+background-color: yellow;
+}

@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+.parentdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bars{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    width: 100vw;
+}
+.childdiv{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+    border: 2px solid red;
+    margin-bottom: 20px;
+  
+}
+.childdiv p{
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 5; 
+    -webkit-box-orient: vertical;
+    font-size: 0.875rem; 
+    height: 100px; 
+    overflow: hidden;
+}
+.childdiv h2{
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    font-size: 1.25rem; 
+    height: 100px; 
+    overflow: hidden;
+}
